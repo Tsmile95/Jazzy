@@ -1,0 +1,8 @@
+.main-flexed{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 19px;
+    grid-row-gap: 90px;
+    justify-content: center;
+    align-items: center;
+}
