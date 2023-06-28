@@ -2,6 +2,7 @@ import { useState,useEffect } from "react";
 import jazzyPic from "../../assets/Frame 3.svg";
 import '../../Styles/Main.css'
 import fruitimage from "../../assets/Group 4.svg"
+import footerimage from "../../assets/Footer (1).svg"
 const Main = () => {
     const [data,setData] = useState([])
 
@@ -44,6 +45,9 @@ const Main = () => {
   </div>
     
       </main>
+      <div>
+      <img className="img-fluid" src={footerimage} alt="Footer-img" />
+      </div>
     </div>
   );
 };
