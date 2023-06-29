@@ -20,7 +20,7 @@ const Main = () => {
     <div className="container mt-5">
       <main className="row justify-content-between">
         <div className="col-md-4">
-          <img className="img-fluid" src={jazzyPic} alt="jazzy-pic" />
+          <img className="img-fluid hero-img" src={jazzyPic} alt="jazzy-pic" />
         </div>
         <div className="col-md-8">
                 <div className="main-flexed"> 

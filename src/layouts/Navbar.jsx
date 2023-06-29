@@ -12,18 +12,18 @@ const Navbar = () => {
       <header className="d-flex justify-content-between align-items-center">
         <div className="d-flex gap-5">
           <Link to='/'>
-            <img className='img-fluids'src={jazzyLogo} alt="jazzy-logo" />
+            <img className='img-fluids logo'src={jazzyLogo} alt="jazzy-logo" />
           </Link>
-          <img className='img-fluids' src={location} alt="Location-logo" />
-          <img className='img-fluids' src={locationaddress} alt="address-logo" />
+          <img className='img-fluids location' src={location} alt="Location-logo" />
+          <img className='img-fluids location' src={locationaddress} alt="address-logo" />
         </div>
         <nav>
           <ul className="d-flex gap-4">
             <li className="list-unstyled">
-              <img  className='img-fluids' src={allproductlogo} alt="all-product-logo" />
+              <img  className='img-fluids allproduct' src={allproductlogo} alt="all-product-logo" />
             </li>
             <li className="list-unstyled">
-              <img  className='img-fluids' src={guestlogo} alt="guest-logo" />
+              <img  className='img-fluids guest' src={guestlogo} alt="guest-logo" />
             </li>
             <li className="list-unstyled">
                 <Link to='/cart'>
